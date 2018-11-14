@@ -22,6 +22,7 @@ public class Utils {
             result.add(list);
         }
 
+        //still have no idea, how this works
         if (len % threadCount != 0) {
             int ostatok = len% threadCount;
             for (int i = 0; i < ostatok; i++) {
